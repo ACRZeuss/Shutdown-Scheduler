@@ -22,10 +22,6 @@ Shutdown Scheduler is a simple GUI application built with Python's Tkinter libra
    ```sh
    cd Shutdown-Scheduler
    ```
-3. Install dependencies (if any):
-   ```sh
-   pip install -r requirements.txt
-   ```
 
 ## Usage
 1. Run the application:
