@@ -19,8 +19,8 @@ Shutdown Scheduler is a simple GUI application built with Python's Tkinter libra
    git clone https://github.com/ACRZeuss/Shutdown-Scheduler.git
    ```
 2. Navigate to the project directory:
-   ```sh
-   cd shutdown-scheduler
+   ```shs
+   cd Shutdown-cheduler
    ```
 3. Install dependencies (if any):
    ```sh
@@ -30,7 +30,7 @@ Shutdown Scheduler is a simple GUI application built with Python's Tkinter libra
 ## Usage
 1. Run the application:
    ```sh
-   python shutdown_timer.py
+   python main.py
    ```
 2. Enter the shutdown timer duration in seconds.
 3. Confirm the shutdown request.
@@ -38,7 +38,7 @@ Shutdown Scheduler is a simple GUI application built with Python's Tkinter libra
 ## Building the Executable
 To build the executable with a custom icon, use PyInstaller:
 ```sh
-pyinstaller --onefile --windowed --icon=app_icon.ico shutdown_timer.py
+pyinstaller --onefile --windowed --icon=app_icon.ico main.py
 ```
 
 The executable will be created in the `dist` directory.
