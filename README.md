@@ -19,8 +19,8 @@ Shutdown Scheduler is a simple GUI application built with Python's Tkinter libra
    git clone https://github.com/ACRZeuss/Shutdown-Scheduler.git
    ```
 2. Navigate to the project directory:
-   ```shs
-   cd Shutdown-cheduler
+   ```sh
+   cd Shutdown-Scheduler
    ```
 3. Install dependencies (if any):
    ```sh
